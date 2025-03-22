@@ -1,13 +1,14 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "backend",
+  "name": "bloghub-server",
   "main": "src/index.ts",
   "compatibility_date": "2025-03-19",
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
   "vars": {
-
+    "DATABASE_URL": "",
+    "JWT_SECRET": ""
   }
   // "kv_namespaces": [
   //   {
